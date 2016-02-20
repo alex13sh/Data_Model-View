@@ -14,9 +14,15 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    Models/mymodel.cpp
+    Models/mymodel.cpp \
+    Views/mlistview.cpp \
+    Views/mlistviewd.cpp
 
 HEADERS  += mainwindow.h \
-    Models/mymodel.h
+    Models/mymodel.h \
+    Views/mlistview.h \
+    Views/mlistviewd.h \
+    Interfaces/mitree.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    Views/mlistviewd.ui
